@@ -1,9 +1,23 @@
 body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     background-image: url("../imgs/WoWA.png");
-    margin: 0%;
+    background-position: top;
+    margin: 0;
+    padding: 0;
 }
-h1{
-    text-align: center
+html, body{
+    height: 100%
+}
+hr{
+    display: block;
+    unicode-bidi: isolate;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
 }
 .heading {
     width: 100%;
@@ -13,6 +27,47 @@ h1{
     padding-top: 0%;
     background-color: black;
     box-shadow: 0px 10px 5px white;
+}
+.wrapper{
+    height: 100%;
+    padding-bottom: auto;
+}
+#footer{
+    height: 180px
+}
+.seperator{
+    background-color: #333333;
+    border: 0;
+    height: 2px;
+    margin-bottom: 18px;
+    margin-top: 0;
+    width: 100%;
+}
+.contentWrapper{
+    height: 85.5%;
+    position: static;
+    margin: 0 auto;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+#content{
+    height: 100%;
+    background-color:rgba(105, 105, 105, 0.8);
+    text-align: center;
+    margin: 0 20%;
+    position: static;
+    padding: 0 5%;
+}
+#contentHeading{
+    text-align: left;
+    color: white;
+    font-size: xx-large;
+    opacity: 1;
+}
+#contentText{
+    text-align: left;
+    color: white;
+    opacity: 1;
 }
 #icon {
     margin: 20px;
