@@ -57,6 +57,9 @@ hr{
     margin: 0 20%;
     position: static;
     padding: 0 5%;
+    border: 1px solid white;
+    border-bottom-width: 0;
+    border-top-width: 0;
 }
 #contentHeading{
     text-align: left;
