@@ -75,7 +75,12 @@ hr{
     font-size: xx-large;
     opacity: 1;
 }
-#contentText{
+#contentLeft{
+    text-align: left;
+    color: white;
+    opacity: 1;
+}
+#contentRight{
     text-align: left;
     color: white;
     opacity: 1;
