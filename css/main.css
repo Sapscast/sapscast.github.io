@@ -15,7 +15,7 @@ h1{
     margin-top: 1px;
     width: 100px;
     height: 100px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 lightslategray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 darkred;
     float: left;
 }
 #title {
