@@ -6,7 +6,7 @@ body{
     padding: 0;
 }
 html, body{
-    height: 120%
+    height: 200%
 } 
 hr{
     display: block;
@@ -21,7 +21,7 @@ hr{
 }
 .heading {
     width: 100%;
-    height: 125px;
+    height: 130px;
     margin: auto;
     padding-bottom: 5px;
     padding-top: 0%;
