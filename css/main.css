@@ -43,6 +43,14 @@ hr{
     margin-top: 0;
     width: 100%;
 }
+.smallSeperator{
+    background-color: #333333;
+    border: 0;
+    height: 1px;
+    margin-bottom: 1px;
+    margin-top: 0;
+    width: 100%;
+}
 .contentWrapper{
     height: 85.5%;
     position: static;
@@ -89,7 +97,7 @@ hr{
     text-shadow: 2px 2px 4px #000000;
     height: auto;
     padding-top: 1px;
-    margin-right: 8%;
+    margin-right: auto;
     background-color: black;
 }
 #name{
