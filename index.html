@@ -6,6 +6,7 @@
     <title>Sapscast</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/sidebar.css" />
     <script src="js/main.js"></script>
     <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon"> <!--Favicon-->
     <link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
@@ -20,12 +21,19 @@
                 <h1 id="name" style="margin-top: 2%">Sapscast</h1> <!--Setting the title-->
                 <h3 id="name">A WoW Guild</h3>
             </div>
-            <a href="index.html" class="button" style="float: left; margin-left: 13%">Home</a>
-            <a href="info.html" class="button" style="float: left;">Info</a>
+            <div id="pageBar">
+                <a href="index.html" class="button" style="float: left; margin-left: 13%">Home</a>
+                <a href="info.html" class="button" style="float: left;">Info</a>
+            </div>
             <div id="socialIcons">
                 <a href="https://discord.gg/VrwSYXu"><img src="imgs/Discord-Logo-White.png" height="50" width="50"></a>
             </div>
         </section>
+        <!--div id="sidebar"> Currently Disabled
+            <a href="index.html"><img src="imgs/icon.png" width="50" height="50" alt="" style="padding-top: 10px; padding-left: 13%;"></a>
+            <a href="index.html" class="sidebarButton" style="float: left; margin-left: 13%">Home</a>
+            <a href="info.html" class="sidebarButton" style="float: left; margin-left: 13%">Info</a>
+        </div-->
         <section class="contentWrapper">
             <div id="content">
                 <div id="contentHeading">
@@ -33,7 +41,7 @@
                     <h1>Sapscast</h1>
                     <hr class="seperator">
                 </div>
-                <div id="contentText"> <!--Content-->
+                <div id="contentLeft" style="float: left; width: 48%; padding-right: 2%"> <!--Content-->
                     <p>
                         <b>Sapscast</b> is a group of gamers which want to bring everyone together in games and more!<hr class="smallSeperator"><br>
                         <br><b>World Of Warcraft:</b> In WoW we are a alliance guild on <b>Silvermoon</b>
@@ -42,6 +50,12 @@
                         <b>Officer Bushycargo</b><br>
                         <br><b>Discord:</b> <a href="https://discord.gg/VrwSYXu">https://discord.gg/VrwSYXu</a>
                     </p> 
+                </div>
+                <div id="contentRight" style="float: right; width: 48%; padding-left: 2%">
+                    <p>
+                        <!--Placeholder Add Content--><br>
+                        <!--Placeholder Add Content when done remove <br> to the right--><br><hr class="smallSeperator">
+                    </p>
                 </div>
             </div>
         </section>
