@@ -1,0 +1,19 @@
+.button{
+    background-color: #224366;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-transition-duration: 0.5s; /* For apple stuff */
+    transition-duration: 0.5s;
+}
+.button:hover{
+    background-color: #598dc8;
+    color: white
+}
