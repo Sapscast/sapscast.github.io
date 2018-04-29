@@ -5,3 +5,13 @@ body{
     margin: 0;
     padding: 0;
 }
+#link{
+    border: none;
+    color: lightblue;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.25s;
+}
+#link:hover{
+    color: white;
+}
